@@ -69,7 +69,7 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
-          <div class="icon-block z-depth-2">
+          <div class="icon-block z-depth-2 modal-trigger" href="#hsmodal">
             <img src="images/hsdb-small.png"><br>
             <h5 class="center">NY High Schools DB</h5>
 
@@ -78,7 +78,7 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block z-depth-2">
+          <div class="icon-block z-depth-2 modal-trigger" href="#warblrmodal">
             <img src="images/warblr-logo.png"><br>
             <h5 class="center">Warbler</h5>
 
@@ -105,6 +105,40 @@
   </div>
 </div>
 
+<!-- Modals -->
+  <div id="hsmodal" class="modal">
+    <div class="modal-content">
+          <h4>NY High Schools DB</h4>
+          <img class="responsive-img" src="images/nyhsdb.png">
+          <p>
+            NY High Schools DB is a project taking multiple seperate datasets involving New York City public high schools taken from <a href="https://data.cityofnewyork.us">NYC Open Data</a> and putting them together in an interactive site.  The idea began with my passion for youth services. I was interested in how different schools served the youth of NYC. Each school has charts for different performance metrics as well as shows surrounding after-school programs available using the Google Maps API.
+          </p>
+          <p>
+            The site is built using a Ruby on Rails server, a MySQL database.  In addition to the Google Maps API, the front uses D3.js to render graphic data on performance.  The site is styled using Foundation 5.
+          </p>
+          <ul>
+            <li><a href="http://104.236.17.220/schools/">Link</a></li>
+            <li><a href="https://github.com/alexhasapis/after_school">Code</a></li>
+          </ul>
+    </div>
+  </div>
+
+    <div id="warblrmodal" class="modal">
+    <div class="modal-content">
+          <h4>Warblr</h4>
+          <img class="responsive-img" src="images/warblr.png">
+          <p>
+            Warblr is collaborative project as part of the General Assembly Labs Hackathon.  The project involved Web Development students, UX students and Project Management Students.  Groups worked together to create a concept and app over a one week sprint and presented to a panel of industry professionals.  It was a great learning experience working in a team environement similar to the tech industry!
+          </p>
+          <p>
+            Our team used Rails and Javascript to create the site.  Upon selection of music input choices the browser sent an AJAX call to the server which in turn made an API call to the Echonest API to create a unique playlist for the user.  A Spotify music player was then created so that a user could listen to the playlist.
+          </p>
+          <ul>
+            <li><a href="warblr.heroku-app.com">Link</a></li>
+            <li><a href="https://github.com/alexhasapis/soundsik">Code</li>
+          </ul>
+    </div>
+  </div>
 <!-- Contact -->
   <footer class="page-footer orange">
     <div class="container">

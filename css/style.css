@@ -12,6 +12,7 @@
 
 .icon-block {
   padding: 0 15px;
+  cursor: pointer; cursor: hand;
 }
 
 .icon-block img{
@@ -49,6 +50,15 @@
 
 #rest {
   padding-top: 10px;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal li {
+  display: inline;
+  padding-right: 10px;
 }
 
 body {
