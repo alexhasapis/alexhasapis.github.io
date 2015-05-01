@@ -1,0 +1,51 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ a:active {
+  color: black;
+ }
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+#phone {
+  padding-right: 14px;
+  color: white;
+  font-size: 32px;
+  padding-left: 8px;
+}
+
+.contacticon {
+  height: 48px;
+}
+
+.contacticon a:active{
+  color: black;
+}
+
+.page-footer li{
+  font-size: 16px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
