@@ -19,6 +19,7 @@
   margin: 0 auto;
   max-width: 100%;
   padding-top: 10px;
+  max-height: 100px;
 }
 
 .icon {
@@ -44,6 +45,10 @@
 
 .page-footer li{
   font-size: 16px;
+}
+
+#rest {
+  padding-top: 10px;
 }
 
 body {
