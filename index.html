@@ -87,7 +87,7 @@
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block z-depth-2">
+          <div class="icon-block z-depth-2 modal-trigger" href="#ticketmodal">
             <h2 class="center light-blue-text"><i class="mdi-maps-restaurant-menu" id="rest"></i></h2>
             <h5 class="center">Golden Ticket Diner</h5>
 
@@ -123,7 +123,7 @@
     </div>
   </div>
 
-    <div id="warblrmodal" class="modal">
+  <div id="warblrmodal" class="modal">
     <div class="modal-content">
           <h4>Warblr</h4>
           <img class="responsive-img" src="images/warblr.png">
@@ -135,7 +135,22 @@
           </p>
           <ul>
             <li><a href="warblr.heroku-app.com">Link</a></li>
-            <li><a href="https://github.com/alexhasapis/soundsik">Code</li>
+            <li><a href="https://github.com/alexhasapis/soundsik">Code</a></li>
+          </ul>
+    </div>
+  </div>
+
+  <div id="ticketmodal" class="modal">
+    <div class="modal-content">
+        <h4>Golden Ticket Diner</h4>
+          <p>
+            This project is a mockup restaurant POS system for maintainance for ordering food at the diner.  The site has CRUD functionality in that users could add, view, delete and update food items, parties and orders.  When a party is closed a receipt is created showing the items ordered, quantity, grand total and suggested gratuity. 
+          </p>
+          <p>
+            I used Sinatra and RESTful routes to build the site.  Items, orders and parties were stored in a PostgreSQL server using ActiveRecord.
+          </p>
+          <ul>
+            <li><a href="https://github.com/alexhasapis/restaurant">Code</li>
           </ul>
     </div>
   </div>
