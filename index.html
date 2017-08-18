@@ -8,179 +8,22 @@
   <!-- CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="vendor/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
   <!-- Nav  -->
-  <div class="navbar-fixed">
-    <nav class="light-blue lighten-1" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#home" class="brand-logo row">Alex Hasapis</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Connect</a></li>
-        </ul>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Connect</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-      </div>
-    </nav>
-  </div>
   <!-- About -->
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+  <div class="outer section no-pad-bot" id="index-banner">
+    <div class="middle container">
       <br><br>
-      <div id="home" class="section scrollspy">
-        <div class="container">
-          <img class="responsive-img circle z-depth-2" src="images/myphoto2.jpg">
-        </div>
-      </div>
-      <div id="about" class="section scrollspy">
-        <h1 class="header center orange-text">Web Developer</h1>
+      <div id="about" class="inner section scrollspy">
+        <h1 class="header center orange-text">Redesign Coming Soon&trade;!</h1>
         <div class="row center">
-          <p class="left-align">Hi, I'm Alex!  I am a recent graduate of General Assembly's Web Development Immersive (WDI) program!  Before deciding to become a developer I had a background in retail and insurance administrative work.  Needing a change of pace, I began to become enamored with the logic and problem solving skills required in coding.  After self-teaching I decided to enroll in WDI and it's been the best descision I ever made. Not only did I learn fundamental concepts in Ruby, Javascript and Databases, but I also have the skills necessary to adapt to any language.  You can see some of my projects below.  I look forward to working with you!</p>
         </div>
-        <!-- Modal Trigger -->
-      <!-- <div class="row center">
-        <a class="btn-large waves-effect waves-light orange modal-trigger" href="#modal1">More About Me</a>
-      </div> -->
-      <!-- Modal Structure -->
-      <!-- <div id="modal1" class="modal">
-        <div class="modal-content">
-          <h4>About Alex</h4>
-          <p>I am a recent graduate of General Assembly's Web Development Immersive Program!</p>
-        </div>
-      </div>
-      <br><br> -->
     </div>
   </div>
 </div>
-
-
-<!-- Projects -->
-
-<div class="container">
-  <div class="section">
-    <h1 class="header center orange-text">Projects</h1>
-    <div id="projects" class="section scrollspy">
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block z-depth-2 modal-trigger" href="#hsmodal">
-            <img src="images/hsdb-small.png"><br>
-            <h5 class="center">NY High Schools DB</h5>
-
-            <p class="light">Graphic user interface for various NYC Public School Data</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block z-depth-2 modal-trigger" href="#warblrmodal">
-            <img src="images/warblr-logo.png"><br>
-            <h5 class="center">Warbler</h5>
-
-            <p class="light">Music playlist generator based on mood and genre</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block z-depth-2 modal-trigger" href="#ticketmodal">
-            <h2 class="center light-blue-text"><i class="mdi-maps-restaurant-menu" id="rest"></i></h2>
-            <h5 class="center">Golden Ticket Diner</h5>
-
-            <p class="light">Point of sale web app for servers to log orders & create receipts</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <br><br>
-
-  <div class="section">
-
-  </div>
-</div>
-
-<!-- Modals -->
-  <div id="hsmodal" class="modal">
-    <div class="modal-content">
-          <h4>NY High Schools DB</h4>
-          <img class="responsive-img" src="images/nyhsdb.png">
-          <p>
-            NY High Schools DB is a project taking multiple seperate datasets involving New York City public high schools taken from <a href="https://data.cityofnewyork.us">NYC Open Data</a> and putting them together in an interactive site.  The idea began with my passion for youth services. I was interested in how different schools served the youth of NYC. Each school has charts for different performance metrics as well as shows surrounding after-school programs available using the Google Maps API.
-          </p>
-          <p>
-            The site is built using a Ruby on Rails server, a MySQL database.  In addition to the Google Maps API, the front uses D3.js to render graphic data on performance.  The site is styled using Foundation 5.
-          </p>
-          <ul>
-            <li><a href="http://45.55.159.179/schools">Link</a></li>
-            <li><a href="https://github.com/alexhasapis/after_school">Code</a></li>
-          </ul>
-    </div>
-  </div>
-
-  <div id="warblrmodal" class="modal">
-    <div class="modal-content">
-          <h4>Warblr</h4>
-          <img class="responsive-img" src="images/warblr.png">
-          <p>
-            Warblr is collaborative project as part of the General Assembly Labs Hackathon.  The project involved Web Development students, UX students and Project Management Students.  Groups worked together to create a concept and app over a one week sprint and presented to a panel of industry professionals.  It was a great learning experience working in a team environement similar to the tech industry!
-          </p>
-          <p>
-            Our team used Rails and Javascript to create the site.  Upon selection of music input choices the browser sent an AJAX call to the server which in turn made an API call to the Echonest API to create a unique playlist for the user.  A Spotify music player was then created so that a user could listen to the playlist.
-          </p>
-          <ul>
-            <li><a href="warblr.heroku-app.com">Link</a></li>
-            <li><a href="https://github.com/alexhasapis/soundsik">Code</a></li>
-          </ul>
-    </div>
-  </div>
-
-  <div id="ticketmodal" class="modal">
-    <div class="modal-content">
-        <h4>Golden Ticket Diner</h4>
-          <p>
-            This project is a mockup restaurant POS system for maintainance for ordering food at the diner.  The site has CRUD functionality in that users could add, view, delete and update food items, parties and orders.  When a party is closed a receipt is created showing the items ordered, quantity, grand total and suggested gratuity. 
-          </p>
-          <p>
-            I used Sinatra and RESTful routes to build the site.  Items, orders and parties were stored in a PostgreSQL server using ActiveRecord.
-          </p>
-          <ul>
-            <li><a href="https://github.com/alexhasapis/restaurant">Code</li>
-          </ul>
-    </div>
-  </div>
-<!-- Contact -->
-  <footer class="page-footer orange">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h4 class="white-text">Contact</h5>
-          <ul>
-            <li class="contacticon valign-wrapper"><span id="phone">&#9743</span><a class="white-text" href="tel:845-264-2655">845-264-2655</a></a></li>
-            <li class="contacticon valign-wrapper"><img class="icon" src="images/email-48.png"><a class="white-text" href="mailto:alexmhasapis@gmail.com">alexmhasapis@gmail.com</li>
-          </ul>
-        </div>
-        <div id="contact" class="col l6 s12 section scrollspy">
-          <h4 class="white-text">Network</h5>
-          <ul>
-            <li class="contacticon valign-wrapper"><img class="icon" src="images/github-48.png"><a class="white-text" href="https://www.github.com/alexhasapis">alexhasapis</a></li>
-            <li class="contacticon valign-wrapper"><img class="icon" src="images/linkedin-48.png"><a class="white-text" href="https://www.linkedin.com/in/alexhasapis">http://linkedin.com/in/alexhasapis</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-      <div class="footer-copyright">
-        <div class="container">
-          Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a> and Alex Hasapis
-        </div>
-      </div>
-    </div>
-  </footer>
 
 
 <!--  Scripts-->
